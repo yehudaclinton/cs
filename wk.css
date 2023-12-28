@@ -1,0 +1,13 @@
+<style>
+@page  {
+  margin: 0;
+  size: letter; /*or width then height 150mm 50mm*/
+}
+body {background-color: coral;}
+#top{
+    position: absolute;
+    top: 0;
+    height: 50%; /* This limits the div to the top half of the page */
+    width: 100%; /* This makes the div span the whole width of the page */
+}
+</style>
